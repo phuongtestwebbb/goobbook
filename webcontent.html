@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trang Web của Tôi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-GLhlTQ8iN17PdL7v3tNCTNToYJjPX1LehL6LapQsJ+9emU8t2+84UcZ6p3J2S" crossorigin="anonymous">
+    <style>
+        /* Thêm CSS để tùy chỉnh giao diện thanh menu */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Thêm CSS để tùy chỉnh giao diện của title */
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Thêm CSS để tùy chỉnh giao diện của mục chứa hình ảnh và nội dung */
+        #content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #image-container {
+            position: relative;
+            width: 60%;
+            text-align: center;
+        }
+
+        #image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hiển thị hết hình ảnh mà không làm thay đổi tỷ lệ khung hình */
+            border: 1px solid #ddd; /* Đường viền cho hình ảnh */
+            padding: 5px; /* Khoảng cách giữa hình ảnh và đường viền */
+        }
+
+        #image-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Nền đen mờ */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #text-content {
+            width: 35%;
+            padding: 0 20px;
+        }
+
+        #text-content h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Trang Chủ</a></li>
+            <li><a href="https://shopee.vn/S%C3%A1ch-%C3%94ng-Gi%C3%A0-V%C3%A0-Bi%E1%BB%83n-C%E1%BA%A3-B%C3%ACa-Da-i.17755904.22871233851?publish_id=&sp_atk=19903249-9fb9-44f0-99bb-cc4fab7e6c82&xptdk=19903249-9fb9-44f0-99bb-cc4fab7e6c82"><i class="fas fa-list"></i> Ông già và biển cả</a></li>
+            <li><a href="https://shopee.vn/S%C3%A1ch-Ngh%C4%A9-Gi%C3%A0u-L%C3%A0m-Gi%C3%A0u-i.182607782.20570878555?sp_atk=125d972b-bf8d-426d-9325-04e775e97e63&xptdk=125d972b-bf8d-426d-9325-04e775e97e63"><i class="fas fa-list-alt"></i> Nghĩ giàu làm giàu</a></li>
+            <li><a href="https://shopee.vn/S%C3%A1ch-Qu%C3%A2n-v%C6%B0%C6%A1ng-Thu%E1%BA%ADt-cai-tr%E1%BB%8B-i.329874075.8782684786?sp_atk=61580d36-9e56-4f72-b37a-68a254f2387e&xptdk=61580d36-9e56-4f72-b37a-68a254f2387e"><i class="fas fa-list-alt"></i> Quân vương</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i> Liên Hệ</a></li>
+            <li><a href="dangki.html"><i class="fas fa-envelope"></i> Đăng nhập</a></li>
+        </ul>
+    </nav>
+
+    <h1>Xin chào, đây là trang web của tôi!</h1>
+
+    <!-- Mục chứa hình ảnh và nội dung -->
+    <div id="content-container">
+        <div id="image-container">
+            <img id="changing-image" src="images/1.jpg" alt="First Image">
+            <div id="image-text">
+                <div>Ông già và biển cả</div>
+                <div>Nghĩ giàu làm giàu</div>
+                <div>Quân vương</div>
+            </div>
+        </div>
+        <div id="text-content">
+            <h3>1. Ông già và biển cả</h3>
+            <p>Ông già và Biển cả (tên tiếng Anh: The Old Man and the Sea) là một tiểu thuyết ngắn được Ernest Hemingway viết ở Cuba năm 1951 và xuất bản năm 1952. Nó là truyện ngắn dạng viễn tưởng cuối cùng được viết bởi Hemingway. Đây cũng là tác phẩm nổi tiếng và là một trong những đỉnh cao trong sự nghiệp sáng tác của nhà văn. Tác phẩm này đoạt giải Pulitzer cho tác phẩm hư cấu năm 1953. Nó cũng góp phần quan trọng để nhà văn được nhận Giải Nobel văn học năm 1954.
+
+                Trong tác phẩm này, ông đã triệt để dùng nguyên lý mà ông gọi là “tảng băng trôi”, chỉ mô tả một phần nổi còn lại bảy phần chìm, khi mô tả sức mạnh của con cá, sự chênh lệch về lực lượng, về cuộc chiến đấu không cân sức giữa con cá hung dữ với ông già. Tác phẩm ca ngợi niềm tin, sức lao động và khát vọng của con người. </p>
+
+            <h3>2. Nghĩ giàu làm giàu</h3>
+            <p>Nghĩ giàu làm giàu là cuốn sách kinh điển dạy làm người và làm giàu của Napoleon Hill nổi tiếng toàn thế giới với 60 triệu bản được bán suốt 70 năm qua. Cuốn sách là tinh hoa được tác giả Napoleon Hill dành toàn bộ thời gian và công sức suốt gần 30 năm để phỏng vấn hơn 500 người nổi tiếng và thành công nhất trong nhiều lĩnh vực, cùng hàng ngàn doanh nhân khác, có giá trị vĩnh hằng theo thời gian về tính đúng đắn.
+
+                Tất cả những bí mật làm giàu được Napoleon Hill chuyển tải thông qua 13 nguyên tắc quan trọng được ông đúc kết xuyên suốt gần 30 năm, 13 nguyên tắc này như một kim chỉ nam để mở toang cánh cửa giúp chúng ta đạt được những mục tiêu lớn lao của cuộc đời mình.
+                
+                Đây cũng là cuốn sách đầu tiên đưa ra một triết lý đầy đủ và toàn diện về thành công của cá nhân, đồng thời cung cấp những phương pháp để tạo một ý thức thành công cũng như lập kế hoạch chi tiết để đạt được thành công đó. Các bí quyết thành công được đề cập trong cuốn sách này có thể được đúc kết ngắn gọn: tất cả bắt nguồn từ cách nghĩ. Do đó, cuốn sách này không chỉ thay đổi những điều bạn nghĩ mà còn thay đổi cả cách nghĩ của bạn; nó không dừng lại ở việc chỉ ra bạn phải làm gì mà còn cho bạn biết phải làm điều đó như thế nào để đạt được khát vọng của mình.</p>
+
+            <h3>3. Quân vương</h3>
+            <p>Chỉ trong một cuốn sách nhỏ của Machiavelli đã hội tụ những nguyên tắc làm nền móng cho khoa học quản trị nói chung và chính trị học nói riêng.
+
+                Người ta sẽ luôn luôn đọc Quân vương chừng nào con người vẫn chưa thôi trò chơi nguy hiểm nhưng hấp dẫn có cái tên “chính trị”.Qua cuốn sách, độc giả sẽ tìm ra chân dung một vị quân vương hình mẫu:
+                
+                • Keo kiệt hay rộng lượng
+                
+                • Độc ác hay nhân từ
+                
+                • Thất hứa hay giữ lời nếu lời hứa đi ngược lại lợi ích của mình
+                
+                • Phải làm gì để tránh bị dân chúng căm ghét
+                
+                • Phải thực thi những hành động lớn lao để nâng cao uy tín của mình.
+                
+                Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>
+        </div>
+    </div>
+
+    <script>
+        // Đối tượng chứa các đường dẫn đến hình ảnh
+        var imagePaths = [
+            "images/1.jpg",
+            "images/2.jpg",
+            "images/3.jpg",
+            "images/4.jpg"
+            // Thêm các đường dẫn hình ảnh khác nếu cần
+        ];
+
+        var currentIndex = 0;
+        var imageElement = document.getElementById("changing-image");
+
+        // Hàm thay đổi hình ảnh
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % imagePaths.length;
+            imageElement.src = imagePaths[currentIndex];
+        }
+
+        // Gọi hàm thay đổi hình ảnh mỗi 5 giây
+        setInterval(changeImage, 5000);
+    </script>
+</body>
+
+</html>
